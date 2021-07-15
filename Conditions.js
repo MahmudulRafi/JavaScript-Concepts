@@ -3,14 +3,9 @@
 var restaurantOpen = true;
 var foodPrice = 250;
 
-if (restaurantOpen == true) {
-    if (foodPrice < 200) {
-        console.log("Lets eat");
-    }
-    else {
-        console.log("Will ate later");
-    }
+if (restaurantOpen == true && foodPrice < 200) {
+    console.log("Let's eat.");
 }
 else {
-    console.log("Wait to open the restaurant.")
+    console.log("Will ate later.");
 }
