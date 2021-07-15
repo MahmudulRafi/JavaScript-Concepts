@@ -6,4 +6,7 @@ var thirdNumber = '30.12';
 
 thirdNumber = parseFloat(thirdNumber);
 
-console.log(firstNumber + secondNumber + thirdNumber);
+var total = firstNumber + secondNumber + thirdNumber;
+total = total.toFixed(2);
+
+console.log(total);
