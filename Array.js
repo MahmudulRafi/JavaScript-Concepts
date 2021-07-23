@@ -14,7 +14,7 @@ console.log(numberList.length);
 var position = numberList.indexOf(10);
 console.log(position);
 
-var nameList = ['Fuad', 'Muhaimin', 'Muntasir'];
+var nameList = ['Fuad', 'Muhaimin', 'Muntasir', "Foysal"];
 
 nameList.unshift('Rafi', 'Rafat');
 nameList.shift();
