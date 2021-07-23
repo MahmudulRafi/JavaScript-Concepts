@@ -2,7 +2,7 @@
 
 var numberList = [14, 11, 15, 20, 10];
 
-numberList[1] = 22;
+numberList[1] = 25;
 numberList.push(23);     // Push an element in array
 numberList.pop();        // Pop an element from array
 numberList.unshift(8);   // Add an element in begaining of the array
