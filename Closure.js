@@ -1,4 +1,5 @@
 // Closure
+
 let fileName = "Closure";
 
 function parentFunction() {
@@ -7,6 +8,7 @@ function parentFunction() {
     let secondName = 'Hasan';
     let lastName = 'Rafi';
     let studentId = 'C*****';
+    let paymentConfirmed = 25000;
 
     function childFunctionOne() {
         console.log(fileName);
@@ -23,7 +25,13 @@ function parentFunction() {
         console.log(lastName);
     }
 
-    return childFunctionThree;
+    function payment() {
+        console.log(paymentConfirmed);
+        console.log(firstName + " " + secondName + " " + lastName);
+    }
+
+    return payment;
 }
 
-parentFunction()();
+var myVariable = parentFunction();
+myVariable();
