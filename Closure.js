@@ -8,8 +8,6 @@ function parentFunction() {
     let lastName = 'Rafi';
     let studentId = 'C*****';
 
-    return childFunctionThree;
-
     function childFunctionOne() {
         console.log(fileName);
         console.log(firstName);
@@ -24,6 +22,8 @@ function parentFunction() {
         console.log(fileName);
         console.log(lastName);
     }
+
+    return childFunctionThree;
 }
 
 parentFunction()();
