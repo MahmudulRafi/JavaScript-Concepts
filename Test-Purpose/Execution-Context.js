@@ -25,8 +25,9 @@ let myFunction1 = one();           // myFunction1 == two();
 let myFunction2 = myFunction1();   // myFunction2 == three();
 myFunction2();
 
+
 /*
-output -
+output-
 
 IIUC
 Rafi
@@ -38,4 +39,5 @@ IIUC
 
 */
 
-//Closure(one)
+// Closure(one) : studentName = 'Rafi';
+// Closure(two) : studentId = 'C163025';
