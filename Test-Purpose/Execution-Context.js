@@ -5,7 +5,7 @@ function one() {
     console.log(universityName);
 
     function two() {
-        let studentId = "C163025";
+        let studentId = "C10000";
         console.log(studentName);
         console.log(universityName);
 
@@ -40,4 +40,4 @@ IIUC
 */
 
 // Closure(one) : studentName = 'Rafi';
-// Closure(two) : studentId = 'C163025';
+// Closure(two) : studentId = 'C10000';
