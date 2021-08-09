@@ -9,3 +9,7 @@ var array3 = [...array];            // It can stop editing the array from the co
 array3.push(10);
 
 console.log(array);
+
+var newArray = [...array2, ...array3];  // It can concate arrays.
+
+console.log(newArray);
